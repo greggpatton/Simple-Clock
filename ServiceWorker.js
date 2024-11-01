@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-Simple Clock - Unity-1.0";
 const contentToCache = [
-    "Build/Web.loader.js",
-    "Build/Web.framework.js.br",
-    "Build/Web.data.br",
-    "Build/Web.wasm.br",
+    "Build/Simple-Clock.loader.js",
+    "Build/Simple-Clock.framework.js.gz",
+    "Build/Simple-Clock.data.gz",
+    "Build/Simple-Clock.wasm.gz",
     "TemplateData/style.css"
 
 ];
