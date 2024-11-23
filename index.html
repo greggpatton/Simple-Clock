@@ -100,6 +100,10 @@
     showBanner: unityShowBanner,
     };
 
+    // Clear the cache?
+    //https://discussions.unity.com/t/increment-indexeddb-version-number/860085/2
+    if (window.indexedDB != null) window.indexedDB.deleteDatabase("/idbfs");
+    
     if (/iPhone/i.test(navigator.userAgent)) {
         fullscreenButton.style.display = 'none';
     }
